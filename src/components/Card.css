@@ -1,10 +1,18 @@
 .card {
   border: 1px solid black;
   border-radius: 4px;
-  padding: 4px;
+  padding: 1rem;
   width: 200px;
   height: 250px;
   overflow: hidden;
   flex: 0 0 auto;
   margin: 4px;
+}
+
+.card {
+  text-align: center;
+}
+
+.selected {
+  background-color: aqua;
 }
