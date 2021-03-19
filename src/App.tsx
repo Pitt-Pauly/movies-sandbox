@@ -3,7 +3,7 @@ import React from "react";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { MovieList } from "./components/MovieList";
 
-export default function App() {
+export function App() {
   return (
     <Router>
       <main>
